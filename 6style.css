@@ -1,0 +1,326 @@
+body{
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("images/quizBack2.jpg"); /* Applied background to the entire body */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensure the background covers at least the entire viewport height */
+    margin: 0; /* Reset default body margin */
+}
+
+/*Nav Bar*/
+
+nav{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1vw 1vw;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 30px 30px; /* Applied border-radius to the bottom */
+    position: fixed; /* Fixed the navigation bar to the top */
+    top: 0;
+    left: 0;
+    z-index: 10; /* To Ensure it stays on top of other content */
+
+}
+
+nav img{
+    width: 100px;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+nav h1{
+    color: #50C878;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 20px; /* To Add some spacing between logo and title */
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav .navigation ul li{
+    margin-left: 50px;
+    align-items: flex-end;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: #50C878;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav .navigation ul li a:hover{
+    color: salmon;
+}
+
+nav .navigation ul li ul.dropdown li{
+  display: block;
+}
+
+nav .navigation ul li ul.dropdown{
+  text-align: left;
+  position: absolute;
+  display: none;
+  width: 20%;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1vw 1vw;
+  align-items: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+
+nav .navigation ul li a:hover{
+  width: 100%;
+}
+
+nav .navigation ul li:hover ul.dropdown{
+  display: block;
+  background-color: white;
+}
+
+/* Home */
+
+
+
+
+/*Home*/
+
+/*Start button*/
+.start-btn-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px; /* Add padding to avoid overlap with fixed navbar */
+  }
+  
+ .start-btn-container h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #FF8C00;
+    text-align: center;
+  }
+  
+ .start-btn-container .start-btn {
+    background: #008080;
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 15px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+
+/*The Quiz*/
+
+ .quiz-container {
+    max-width: 900px;
+    margin: 80px auto 0; /* Added top margin to avoid overlap with fixed navbar */
+    padding: 20px;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.8); /* (Not too imp) To Add a semi-transparent background for better readability */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .quiz-container h1 {
+    text-align: center;
+    color: #006400;
+    margin-bottom: 20px;
+}
+
+ .quiz-container .timer {
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 10px;
+    color: #444444;
+  }
+  
+ .timer.danger {
+    color: red;
+  }
+  
+ .quiz-container h2.question {
+    font-size: 20px;
+    background-color:#008080;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+ .quiz-container .options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+ .quiz-container .option {
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #FF8C00;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+ .quiz-container button {
+    cursor: pointer;
+  }
+  
+ .disabled {
+    pointer-events: none;
+  }
+  
+ .option.correct {
+    background: #51e351;
+    color: #222;
+  }
+
+ .option.incorrect {
+    background: #e63946;
+  }
+  
+ .quiz-container .next-btn,
+  .quiz-result .retake-btn {
+    background-color: mediumblue;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto; /* Center the button */
+    border-radius: 15px;
+  }
+  
+  /*To make make the result page backgroundless*/
+
+ .quiz-result {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 24px;
+    margin: 80px auto 0; /* Add top margin */
+    padding: 20px;
+    background-color: #6495ED;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-result h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+ .quiz-result .question-container {
+    padding: 12px;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #50C878;
+    color: white;
+  }
+  
+ .quiz-result .question-container.incorrect {
+    background: #e63946;
+    color: #fff;
+  }
+
+ .question-number {
+    font-size: 16px;
+    margin-right: 16px;
+    background: #1d3557;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+
+  /* Media Query - For Screens Shorter than Desktop (Tablets and Phones) */
+@media only screen and (max-width: 1020px) {
+  nav {
+    flex-direction: row;
+  }
+
+  nav #toggle{
+    display: block;
+    width: 50px;
+  }
+
+  nav h1 {
+        margin-left: 10px; /* To Add some space from the toggle */
+        font-size: 1.3em;
+    }
+
+    nav .navigation {
+        position: absolute;
+        top: 60px; /* Below the main nav */
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        display: none; /* Initially hidden */
+    }
+
+    nav .navigation.active {
+        display: block; /* Shown when toggled */
+    }
+
+    nav .navigation ul {
+        flex-direction: column; /* Stack links vertically */
+    }
+
+    nav .navigation ul li {
+        margin-left: 0;
+        padding: 15px 20px;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+    }
+
+    nav .navigation ul li:last-child {
+        border-bottom: none;
+    }
+
+    /*Remaining Page*/
+    #home{
+      text-align: center;
+    }
+
+
+/*to disable dropdown menu*/
+nav .navigation ul li ul.dropdown li{
+  display: none;
+}
+
+}
+  
