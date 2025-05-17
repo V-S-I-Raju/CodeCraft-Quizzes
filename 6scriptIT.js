@@ -8,20 +8,20 @@ let quizData = [
   {
     /*2*/
     question: "Which HTML tag is used to define the structure of an HTML document?",
-    options: ["<structure>", "<head>", "<body>", "<html>"],
-    correct: "<html>",
+    options: ["structure", "head", "body", "html"],
+    correct: "html",
   },
   {
     /*3*/
     question: "Which HTML tag is used to create a hyperlink?",
-    options: ["<link>", "<url>", "<a>", "<href>"],
-    correct: "<a>",
+    options: ["link", "url", "a", "href"],
+    correct: "a",
   },
   {
     /*4*/
     question: "Which HTML tag is used to display an image?",
-    options: ["<image>", "<src>", "<img>", "<picture>"],
-    correct: "<img>",
+    options: ["image", "src", "img", "picture"],
+    correct: "img",
   },
   {
     /*5*/
@@ -152,20 +152,20 @@ let quizData = [
   {
     /*26*/
     question: "Which HTML tag is used to create a form?",
-    options: ["<input>", "<form>", "<data>", "<text>"],
-    correct: "<form>",
+    options: ["input", "form", "data", "text"],
+    correct: "form",
   },
   {
     /*27*/
     question: "Which HTML tag is used to create a text input field?",
-    options: ["<text>", "<input type='text'>", "<textfield>", "<area>"],
-    correct: "<input type='text'>",
+    options: ["text", "input type='text'", "textfield", "area"],
+    correct: "input type='text'",
   },
   {
     /*28*/
     question: "Which HTML tag is used to create a button?",
-    options: ["<button>", "<input type='button'>", "<click>", "<action>"],
-    correct: "<button>",
+    options: ["button", "input type='button'", "click", "action"],
+    correct: "button",
   },
   {
     /*29*/
