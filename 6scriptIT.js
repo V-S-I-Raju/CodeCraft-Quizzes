@@ -7,354 +7,318 @@ let quizData = [
   },
   {
     /*2*/
-    question: "Which HTML tag is used to define the structure of an HTML document?",
-    options: ["structure", "head", "body", "html"],
-    correct: "html",
-  },
-  {
-    /*3*/
-    question: "Which HTML tag is used to create a hyperlink?",
-    options: ["link", "url", "a", "href"],
-    correct: "a",
-  },
-  {
-    /*4*/
-    question: "Which HTML tag is used to display an image?",
-    options: ["image", "src", "img", "picture"],
-    correct: "img",
-  },
-  {
-    /*5*/
     question: "What does CSS stand for?",
     options: ["Creative Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
     correct: "Cascading Style Sheets",
   },
   {
-    /*6*/
+    /*3*/
     question: "Which CSS property is used to change the text color of an element?",
     options: ["text-color", "font-color", "color", "text-style"],
     correct: "color",
   },
   {
-    /*7*/
+    /*4*/
     question: "Which CSS property is used to change the font size of text?",
     options: ["font-style", "text-size", "font-size", "text-font"],
     correct: "font-size",
   },
   {
-    /*8*/
+    /*5*/
     question: "Which CSS property is used to add space between lines of text?",
     options: ["text-spacing", "line-height", "font-spacing", "letter-spacing"],
     correct: "line-height",
   },
   {
-    /*9*/
+    /*6*/
     question: "What is JavaScript?",
     options: ["A markup language", "A styling language", "A programming language", "A database management system"],
     correct: "A programming language",
   },
   {
-    /*10*/
+    /*7*/
     question: "Which keyword is used to declare a variable in JavaScript?",
     options: ["variable", "v", "let", "int"],
     correct: "let",
   },
   {
-    /*11*/
+    /*8*/
     question: "Which JavaScript function is used to display a popup box?",
     options: ["alert()", "popup()", "message()", "show()"],
     correct: "alert()",
   },
   {
-    /*12*/
+    /*9*/
     question: "What is the DOM in web development?",
     options: ["Document Object Model", "Data Object Model", "Design Object Model", "Digital Object Model"],
     correct: "Document Object Model",
   },
   {
-    /*13*/
+    /*10*/
     question: "What is a web server?",
     options: ["A software application that serves web pages", "A hardware device that connects computers to the internet", "A programming language for web development", "A tool for creating websites"],
     correct: "A software application that serves web pages",
   },
   {
-    /*14*/
+    /*11*/
     question: "What is a web browser?",
     options: ["A software application for accessing websites", "A hardware device that stores web pages", "A programming language for web development", "A tool for creating websites"],
     correct: "A software application for accessing websites",
   },
   {
-    /*15*/
+    /*12*/
     question: "What does URL stand for?",
     options: ["Uniform Resource Locator", "Universal Resource Locator", "Unified Resource Locator", "Unidentified Resource Locator"],
     correct: "Uniform Resource Locator",
   },
   {
-    /*16*/
+    /*13*/
     question: "What is the purpose of HTTP?",
     options: ["To transfer files between computers", "To display web pages in a browser", "To define the structure of a web page", "To style the content of a web page"],
     correct: "To display web pages in a browser",
   },
   {
-    /*17*/
+    /*14*/
     question: "What does API stand for?",
     options: ["Application Programming Interface", "Advanced Processing Interface", "Application Process Integration", "Advanced Program Instruction"],
     correct: "Application Programming Interface",
   },
   {
-    /*18*/
+    /*15*/
     question: "What is JSON?",
     options: ["A programming language", "A styling language", "A data format", "A database system"],
     correct: "A data format",
   },
   {
-    /*19*/
+    /*16*/
     question: "What is XML?",
     options: ["A programming language", "A styling language", "A markup language", "A database system"],
     correct: "A markup language",
   },
   {
-    /*20*/
+    /*17*/
     question: "What is a framework in web development?",
     options: ["A hardware component", "A set of tools and libraries that provide a basic structure for building applications", "A programming language", "A database management system"],
     correct: "A set of tools and libraries that provide a basic structure for building applications",
   },
   {
-    /*21*/
+    /*18*/
     question: "Which of the following is a popular JavaScript framework?",
     options: ["Django", "Ruby on Rails", "React", "Spring"],
     correct: "React",
   },
   {
-    /*22*/
+    /*19*/
     question: "What is responsive web design?",
     options: ["Websites that load quickly", "Websites that adapt to different screen sizes", "Websites with a lot of animations", "Websites that use only text"],
     correct: "Websites that adapt to different screen sizes",
   },
   {
-    /*23*/
+    /*20*/
     question: "What is a cookie?",
     options: ["A small text file stored on a user's computer", "A type of virus", "A programming language", "A database system"],
     correct: "A small text file stored on a user's computer",
   },
   {
-    /*24*/
+    /*21*/
     question: "What is a session in web development?",
     options: ["A period of time a user interacts with a website", "A type of database query", "A way to style web pages", "A method for creating animations"],
     correct: "A period of time a user interacts with a website",
   },
   {
-    /*25*/
+    /*22*/
     question: "What is a web form?",
     options: ["A way to display images on a website", "A way for users to input data on a website", "A method for creating animations", "A type of database table"],
     correct: "A way for users to input data on a website",
   },
   {
-    /*26*/
-    question: "Which HTML tag is used to create a form?",
-    options: ["input", "form", "data", "text"],
-    correct: "form",
-  },
-  {
-    /*27*/
-    question: "Which HTML tag is used to create a text input field?",
-    options: ["text", "input type='text'", "textfield", "area"],
-    correct: "input type='text'",
-  },
-  {
-    /*28*/
-    question: "Which HTML tag is used to create a button?",
-    options: ["button", "input type='button'", "click", "action"],
-    correct: "button",
-  },
-  {
-    /*29*/
+    /*23*/
     question: "What is server-side scripting?",
     options: ["Code that runs in the web browser", "Code that runs on the web server", "Code that defines the structure of a web page", "Code that styles the content of a web page"],
     correct: "Code that runs on the web server",
   },
   {
-    /*30*/
+    /*24*/
     question: "Which of the following is a server-side scripting language?",
     options: ["JavaScript", "CSS", "HTML", "PHP"],
     correct: "PHP",
   },
   {
-    /*31*/
+    /*25*/
     question: "What is a database?",
     options: ["A program that displays web pages", "An organized collection of data", "A language for styling web pages", "A tool for creating animations"],
     correct: "An organized collection of data",
   },
   {
-    /*32*/
+    /*26*/
     question: "Which of the following is a popular database management system?",
     options: ["React", "Angular", "MySQL", "Node.js"],
     correct: "MySQL",
   },
   {
-    /*33*/
+    /*27*/
     question: "What is SQL?",
     options: ["A programming language", "A styling language", "A query language", "A database system"],
     correct: "A query language",
   },
   {
-    /*34*/
+    /*28*/
     question: "What is a web service?",
     options: ["A software application that serves web pages", "A method for client and server to communicate over the web", "A programming language for web development", "A tool for creating websites"],
     correct: "A method for client and server to communicate over the web",
   },
   {
-    /*35*/
+    /*29*/
     question: "What is REST?",
     options: ["Representational State Transfer", "Real-time State Transfer", "Resource Exchange State Transfer", "Reliable State Transfer"],
     correct: "Representational State Transfer",
   },
     {
-        /*36*/
+        /*30*/
         question: "What is a single-page application (SPA)?",
         options: ["An application that consists of only one HTML page.", "An application that loads all content on the server-side.", "An application with multiple HTML pages.", "An application that uses only CSS for styling."],
         correct: "An application that consists of only one HTML page.",
     },
     {
-        /*37*/
+        /*31*/
         question: "What is Node.js?",
         options: ["A JavaScript framework.", "A JavaScript runtime environment.", "A database management system.", "A web server."],
         correct: "A JavaScript runtime environment.",
     },
     {
-        /*38*/
+        /*32*/
         question: "What is npm?",
         options: ["Node Package Manager", "Node Project Manager", "New Package Manager", "Node Process Manager"],
         correct: "Node Package Manager",
     },
     {
-        /*39*/
+        /*33*/
         question: "What is version control?",
         options: ["A method for creating animations.", "A system that records changes to a file or set of files over time.", "A way to style web pages.", "A technique for optimizing website performance."],
         correct: "A system that records changes to a file or set of files over time.",
     },
     {
-        /*40*/
+        /*34*/
         question: "Which of the following is a popular version control system?",
         options: ["MySQL", "PHP", "Git", "JSON"],
         correct: "Git",
     },
     {
-        /*41*/
+        /*35*/
         question: "What is a CDN?",
         options: ["Content Delivery Network", "Content Design Network", "Cascading Delivery Network", "Cascading Design Network"],
         correct: "Content Delivery Network",
     },
     {
-        /*42*/
+        /*36*/
         question: "What is web accessibility?",
         options: ["Making websites visually appealing.", "Making websites usable by people with disabilities.", "Making websites load quickly.", "Making websites secure."],
         correct: "Making websites usable by people with disabilities.",
     },
     {
-        /*43*/
+        /*37*/
         question: "What are web sockets?",
         options: ["A new type of web browser.", "A communication protocol that provides full-duplex communication channels over a single TCP connection.", "A method for styling web pages.", "A technique for creating animations."],
         correct: "A communication protocol that provides full-duplex communication channels over a single TCP connection.",
     },
     {
-        /*44*/
+        /*38*/
         question: "What is web security?",
         options: ["Making websites visually appealing.", "Protecting websites from unauthorized access and attacks.", "Making websites load quickly.", "Making websites accessible."],
         correct: "Protecting websites from unauthorized access and attacks.",
     },
     {
-        /*45*/
+        /*39*/
         question: "What is an XSS attack?",
         options: ["Cross-Site Scripting", "Extreme Style Sheet", "Extended Server Scripting", "External Style Source"],
         correct: "Cross-Site Scripting",
     },
     {
-        /*46*/
+        /*40*/
         question: "What is a SQL injection attack?",
         options: ["A type of CSS vulnerability.", "A type of JavaScript vulnerability.", "An attack that exploits security vulnerabilities in a database.", "An attack that targets the web server."],
         correct: "An attack that exploits security vulnerabilities in a database.",
     },
     {
-        /*47*/
+        /*41*/
         question: "What is authentication?",
         options: ["Verifying the identity of a user.", "Styling a web page.", "Creating a database query.", "Making a website responsive."],
         correct: "Verifying the identity of a user.",
     },
     {
-        /*48*/
+        /*42*/
         question: "What is authorization?",
         options: ["Verifying the identity of a user.", "Determining what a user is allowed to do.", "Creating a database query.", "Making a website accessible."],
         correct: "Determining what a user is allowed to do.",
     },
     {
-        /*49*/
+        /*43*/
         question: "What is HTTPS?",
         options: ["Hyper Text Transfer Protocol Secure", "High Text Transfer Protocol Secure", "Hyper Text Transfer Process Secure", "High Text Transfer Process Secure"],
         correct: "Hyper Text Transfer Protocol Secure",
     },
     {
-        /*50*/
+        /*44*/
         question: "What is SEO?",
         options: ["Search Engine Optimization", "Style Engine Optimization", "Server Engine Optimization", "Script Engine Optimization"],
         correct: "Search Engine Optimization",
     },
     {
-        /*51*/
+        /*45*/
         question: "What is a meta tag?",
         options: ["An HTML tag that provides metadata about an HTML document.", "A CSS tag for styling text.", "A JavaScript tag for creating animations.", "A SQL tag for querying databases."],
         correct: "An HTML tag that provides metadata about an HTML document.",
     },
     {
-        /*52*/
+        /*46*/
         question: "What is web hosting?",
         options: ["Storing website files on a server.", "Creating web pages.", "Designing website layouts.", "Securing web applications."],
         correct: "Storing website files on a server.",
     },
     {
-        /*53*/
+        /*47*/
         question: "What is FTP?",
         options: ["File Transfer Protocol", "File Transform Protocol", "Fast Transfer Protocol", "Fast Transform Protocol"],
         correct: "File Transfer Protocol",
     },
     {
-        /*54*/
+        /*48*/
         question: "What is a CMS?",
         options: ["Content Management System", "Content Manipulation System", "Cascading Management System", "Cascading Manipulation System"],
         correct: "Content Management System",
     },
     {
-        /*55*/
+        /*49*/
         question: "Which of the following is a popular CMS?",
         options: ["React", "Angular", "WordPress", "Node.js"],
         correct: "WordPress",
     },
     {
-        /*56*/
+        /*50*/
         question: "What is a web API?",
         options: ["A programming language for web development.", "A way for different software applications to communicate with each other over the web.", "A tool for creating websites.", "A database management system."],
         correct: "A way for different software applications to communicate with each other over the web.",
     },
     {
-        /*57*/
+        /*51*/
         question: "What is GraphQL?",
         options: ["A query language for APIs.", "A styling language for web pages.", "A programming language for web development.", "A database management system."],
         correct: "A query language for APIs.",
     },
     {
-        /*58*/
+        /*52*/
         question: "What is serverless computing?",
         options: ["Running code on a physical server.", "Running code without managing servers.", "Running code only on the client-side.", "Running code only for styling web pages."],
         correct: "Running code without managing servers.",
     },
     {
-        /*59*/
+        /*53*/
         question: "What is a microservice?",
         options: ["A small part of a web page.", "An architectural approach that structures an application as a collection of small, autonomous services.", "A small database.", "A small web server."],
         correct: "An architectural approach that structures an application as a collection of small, autonomous services.",
     },
     {
-        /*60*/
+        /*54*/
         question: "What is CI/CD?",
         options: ["Continuous Integration/Continuous Delivery", "Creative Integration/Creative Delivery", "Cascading Integration/Cascading Delivery", "Client Integration/Client Delivery"],
         correct: "Continuous Integration/Continuous Delivery",
