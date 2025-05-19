@@ -157,48 +157,42 @@ let quizData = [
     },
     {
       /*27*/
-      question: "The standard header _______ is used for variable list arguments (…) in C.",
-      options: ["<errno.h>", "<stddef.h>", "<stdio.h>", "<stdarg.h>"],
-      correct: "<stdarg.h>",
-    },
-    {
-      /*28*/
       question: "When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?",
       options: ["Standard input", "Standard output", "Standard error", "All of the mentioned"],
       correct: "All of the mentioned",
     },
     {
-      /*29*/
+      /*28*/
       question: "In C language, FILE is of which data type?",
       options: ["int", "char *", "struct", "None of the mentioned"],
       correct: "struct",
     },
     {
-      /*30*/
+      /*29*/
       question: "What is the sizeof(char) in a 32-bit C compiler?",
       options: ["2 Byte", "4 Byte", "1 Byte", "Depends on the compiler"],
       correct: "1 Byte",
     },
       {
-      /*31*/
+      /*30*/
       question: "Which of the following is not an operator in C?",
       options: ["*", "?:", "sizeof()", "None of the mentioned"],
       correct: "None of the mentioned",
     },
     {
-      /*32*/
+      /*31*/
       question: "scanf() is a predefined function in______header file.",
       options: ["conio.h", "stdio.h", "stdlib.h", "ctype.h"],
       correct: "stdio.h",
     },
     {
-      /*33*/
+      /*32*/
       question: "What is meant by 'a' in the following C operation?  fopen(“Random.txt”, “a”);",
       options: ["Attach", "Append", "Alter", "All of the mentioned"],
       correct: "Append",
     },
       {
-      /*34*/
+      /*33*/
       question: "Which data structure is used to handle recursion in C?",
       options: ["Stack", "Queue", "Deque", "Trees"],
       correct: "Stack",
